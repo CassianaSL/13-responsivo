@@ -1,0 +1,70 @@
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    padding: 1em 0  0.75em 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.25em;
+}
+header img{
+    width: 70px;
+    height: 50px;
+    padding-bottom: 0.3em;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.75em 0;
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+}
+.menu a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    color: rgb(50,50,150);
+    border: 1px solid;
+    border-radius: 0.3em;
+    width: 3em;
+    height: 3em;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo > p{
+    font-size: 2em;
+    padding: 0.5em 0;
+}
+
+.conteudo .promocao{
+    padding: 0.75em;
+    border: 1px solid black;
+}
+
+.conteudo #sobrenos{
+    display: flex;
+    width: 90%;
+}
+.conteudo #sobrenos p{
+    padding: 0.25em;
+    display: flex;
+    align-content: center;
+}
+
+.explicacao .exemplo{
+    display: flex;
+    flex-direction: row;
+}
+.explicacao span:not(:last-child) {
+    font-size: 1.25em;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
